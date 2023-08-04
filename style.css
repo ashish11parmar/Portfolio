@@ -171,3 +171,53 @@ margin: 0px 200px;
     text-align: center;
     font-size: small;
 }
+
+@media only screen  and (max-width: 1450px){
+ 
+
+    .secondsection{
+        height: 70vh;
+}
+
+@media only screen  and (max-width: 1330px){
+ 
+
+    .secondsection{
+        height: 80vh;
+}
+
+@media only screen  and (max-width: 1250px){
+ 
+    .firstsection{
+        display:inline-table;
+        margin: 50px 23%;
+        width: 200%;
+    }  
+    .leftsection{
+        text-align: center;
+    }
+
+    .secondsection{
+        height: 130vh;
+    }
+    .box{
+        display: inline-table;
+    }
+    .card{
+        width: 60%;
+    }
+}
+
+@media only screen  and (max-width: 900px){
+ 
+
+    .secondsection{
+        height: 135vh;
+    }
+    .box{
+        display: inline-table;
+    }
+    .card{
+        width: 60%;
+    }
+}
